@@ -1,29 +1,29 @@
 @media screen and (max-width: 1000px){
-  .software ul li h3{
+  .credits ul li h3{
     display: block;
     margin-bottom: 7px;
   }
-  .software ul li h3.divider{
+  .credits ul li h3.divider{
     display: none;
   }
 }
 @media screen and (max-width: 700px){
-  .software ul li{
+  .credits ul li{
     flex-wrap: wrap;
     padding: 15px
   }
-  .software ul li h2{
+  .credits ul li h2{
     font-size: 27px;
     text-align: center;
     margin-bottom: 15px;
   }
-  .software ul li h3{
+  .credits ul li h3{
     text-align: center;
   }
-  .software ul li p{
+  .credits ul li p{
     text-align: center;
   }
-  .software ul li a{
+  .credits ul li a{
     margin-left: 0;
     margin-top: 15px;
   }

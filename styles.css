@@ -21,54 +21,11 @@ a {
   color: white;
 }
 
-.header{
-  position: sticky;
-  top: 0;
-  width: 94%;
-  padding: 0 3%;
-  background-color: rgba(0, 0, 0, .6);
-  text-shadow: 0px 0px 15px rgba(0, 0, 0, .5);
-  z-index: 1;
-  user-select: none;
-}
-.header nav{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5px 0;
-}
-.header nav a{
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 19px;
-}
-.header nav a.website-name{
-  font-size: 25px;
-}
-.header nav ul{
-  padding: 0;
-}
-.header nav ul li{
-  display: inline-block;
-  list-style: none;
-  margin: 10px 20px;
-}
-.header nav ul li:last-child{
-  margin-right: 0;
-}
-.header nav ul li a{
-  transition: color 0.15s;
-}
-.header nav ul li a:hover{
-  color: grey;
-}
-
 .banner{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 20vh;
   background-color: rgba(0, 0, 0, .3);
 }
 .banner h1{
@@ -84,29 +41,4 @@ a {
   top: 0;
   z-index: -1;
   object-fit: cover;
-}
-
-.footer{
-  width: 94%;
-  padding: 15px 3%;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  user-select: none;
-}
-.footer ul{
-  padding: 0;
-}
-.footer ul li{
-  display: inline-block;
-  list-style: none;
-  margin: 0px 10px;
-}
-.footer ul li a img{
-  width: 30px;
-  object-fit: contain;
-  transition: filter 0.15s;
-}
-.footer ul li a img:hover{
-  filter: brightness(0.5);
 }
